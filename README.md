@@ -1,4 +1,4 @@
-# Simple DFA in Haskell
+# Simple DFA in Functional-Oriented Programming Using Haskell
 
 A simple command-line Deterministic Finite Automaton (DFA) in Haskell that accepts binary strings containing exactly one '1'.
 
