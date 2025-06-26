@@ -80,4 +80,8 @@ This DFA implementation showcases several core functional programming concepts a
     runDFA state (x:xs) = runDFA (transition state x) xs
     ```
 
-*   **Purity:** The core logic of the DFA (`transition`, `runDFA`, and `isAccepted` functions) is pure. These functions do not have any side effects (like I/O) and their output depends only on their input. Side effects are managed separately in the `main` function, which is idiomatic Haskell. 
+*   **Purity:** The core logic of the DFA (`transition`, `runDFA`, and `isAccepted` functions) is pure. These functions do not have any side effects (like I/O) and their output depends only on their input. Side effects are managed separately in the `main` function, which is idiomatic Haskell.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
